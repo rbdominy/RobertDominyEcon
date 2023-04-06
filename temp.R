@@ -11,4 +11,4 @@ str <- list(
 )
 create_cabinet("testproject", directory = here(), structure = str)
 
-new_cabinet_proj(here("testproject"), "CabinetTest", git = TRUE)
+new_cabinet_proj(.testproject, "CabinetTest", git = FALSE, r_project = FALSE, renv = FALSE)
