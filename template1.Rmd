@@ -1,0 +1,33 @@
+---
+title: "Project Initiation Instructions"
+author: "Bobby Dominy"
+date: "2023-04-06"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Initiating a New Project
+
+1. Create a new repo on Github
+2. Clone github repo in rStudio using
+```{r, eval=FALSE}
+usethis::create_from_github("url-copied-from-github", 
+                            destdir = "file-path-to-directory-that-will-house-repo/")
+```
+3. Generate filing system structure via `cabinets`, using `here()` to reference the parent directory.
+```{r, eval=FALSE}
+usethis::create_from_github("url-copied-from-github", 
+                            destdir = "file-path-to-directory-that-will-house-repo/")
+```
+4. Create project-specific library source using `groundhog`.
+```{r, eval=FALSE}
+usethis::create_from_github("url-copied-from-github", 
+                            destdir = "file-path-to-directory-that-will-house-repo/")
+```
+5. Create project-specific functions file.
+6. Implement Analysis
+7. Resolve conflicts in project-specific functions file, push to github. 
+
